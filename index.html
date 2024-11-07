@@ -11,19 +11,27 @@
         <label for="ftname">ชื่อ-สกุล :</label>
         <input type="text" name="ftname" id="ftname" required>
         <br><br>
-    </form>
-    <form action="">
+    
+    <div class="fename">
         <label for="fename">Full name :</label>
         <input type="text"name="fename"id="fename" required>
         <br><br>
-    </form>
-    <form action="">
+    </div>
+
+    <div class="stid">
         <label for="stid">รหัสนักศึกษา :</label>
         <input type="number"name="stid"id="stid" required>
         <br><br>
-    </form>
+    </div>
 
-    <form action="">
+    <div class="sex">
+        <label for="sex">เพศ</label>
+        <input type="radio"name="sex"id="sex">ชาย
+        <input type="radio"name="sex"id="sex">หญิง
+        <input type="radio"name="sex"id="sex">อื่นๆ
+    </div>
+
+    <div class="major">
         <label for="major">คณะที่ศึกษา :</label>
         <select name="major" id="major" required>
             <option value="">คณะนิติศาสตร์</option>
@@ -55,21 +63,21 @@
             <option value=""></option>
         </select>
         <br><br>
-    </form>
+    </div>
 
-    <form action="">
+    <div class="email">
         <label for="email">ที่อยู่อีเมล</label>
         <input type="email"name="email"id="email" required>
         <br><br>
-    </form>
+    </div>
 
-    <form action="">
-        <label for="birth">วันเดือนปีเกิด</label>
+   <div class="birth">
+    <label for="birth">วันเดือนปีเกิด</label>
         <input type="date"name="birth"id="birth" required>
         <br><br>
-    </form>
+   </div>
 
-    <form action=""required>
+    <div class="genre">
         <label for="genre">ประเภทของหนังสือที่สนใจ</label> <br>
         <input type="radio"name="genre1"id="genre">Fantasy <br>
         <input type="radio"name="genre2"id="genre">Horror <br>
@@ -82,16 +90,17 @@
         <input type="radio"name="genre9"id="genre">Historical Fantasy<br>
         <input type="reset" value="clear selection"><br>
         <br>
-    </form>
+    </div>
 
-    <form action=""required>
+    <div class="permise">
         <label for="permise">ท่านยินยอมให้แจ้งข้อมูลข่าวสารห้องสมุดผ่านทางอีเมลหรือไม่</label><br>
         <input type="radio"name="permise"id="permise">ยินยอม <br>
         <input type="radio"name="permise"id="permise">ไม่ยินยอม <br>
-    </form>
+    </div>
     
-    <form action="">
+    <div class="submit">
         <input type="submit"value="submit">
+    </div>
     </form>
 </body>
 </html>
